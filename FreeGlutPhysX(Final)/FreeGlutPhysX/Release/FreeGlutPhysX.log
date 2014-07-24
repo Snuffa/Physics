@@ -1,0 +1,42 @@
+﻿Build started 22/03/2013 12:04:56 p.m..
+     1>Project "D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\FreeGlutPhysX\FreeGlutPhysX.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\FreeGlutPhysX.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CubeClass.cpp KeyBoardClass.cpp main.cpp Game.cpp MouseClass.cpp PhysXClass.cpp RenderClass.cpp
+         CubeClass.cpp
+         KeyBoardClass.cpp
+         main.cpp
+         Game.cpp
+         MouseClass.cpp
+         PhysXClass.cpp
+         RenderClass.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\FreeGlutPhysX.exe" /INCREMENTAL:NO /NOLOGO PhysX3_x86.lib PhysX3Common_x86.lib PhysX3Extensions.lib PhysX3CharacterKinematic_x86.lib PhysX3Cooking_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FreeGlutPhysX.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\FreeGlutPhysX.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\FreeGlutPhysX.lib" /MACHINE:X86 Release\CubeClass.obj
+         Release\KeyBoardClass.obj
+         Release\main.obj
+         Release\Game.obj
+         Release\MouseClass.obj
+         Release\PhysXClass.obj
+         Release\RenderClass.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>PhysX3Extensions.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtCpuWorkerThread.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultCpuDispatcher.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultErrorCallback.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtDefaultSimulationFilterShader.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtDefaultSimulationFilterShader.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtPvdClientImpl.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtPvdClientImpl.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtRigidBodyExt.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+     1>PhysX3Extensions.lib(ExtSimpleFactory.obj) : warning LNK4099: PDB 'physx3extensions.pdb' was not found with 'PhysX3Extensions.lib(ExtSimpleFactory.obj)' or at 'D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\physx3extensions.pdb'; linking object as if no debug info
+         FreeGlutPhysX.vcxproj -> D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\FreeGlutPhysX.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\Release\FreeGlutPhysX.exe;#1" /manifest Release\FreeGlutPhysX.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\FreeGlutPhysX.unsuccessfulbuild".
+         Touching "Release\FreeGlutPhysX.lastbuildstate".
+     1>Done Building Project "D:\Users\scott.emery\Desktop\FreeGlutPhysX(Final)\FreeGlutPhysX\FreeGlutPhysX.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05
